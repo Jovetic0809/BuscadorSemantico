@@ -1,0 +1,3812 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="http://www.semanticweb.org/daniel/ontologies/2025/2/untitled-ontology-30" ontologyIRI="http://www.semanticweb.org/daniel/ontologies/2025/2/untitled-ontology-30">
+    <Prefix name="" IRI="http://www.semanticweb.org/daniel/ontologies/2025/2/untitled-ontology-30/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-30" IRI="http://www.semanticweb.org/daniel/ontologies/2025/2/untitled-ontology-30#"/>
+    <Declaration>
+        <Class IRI="#Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Articulo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Educacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institucion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Libro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multimedia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recurso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#agrupa_multiples"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dispone_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#es_parte_de"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#es_parte_de_recurso"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#es_un"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#es_un_tipo_de_documento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#es_un_tipo_de_multimedia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esta_asociada"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#podria_ser"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#puede_incluir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#puede_ser"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#utiliza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tipo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#autor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#añoDeFundacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#calidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#categoria"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contacto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#disciplina"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duracion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#edad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#edicion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#editorial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fechaDePublicacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#formato"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fuente"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gradoAcademico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#identificador"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#idioma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#licencia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lugarDePublicacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#medio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nivelEducativo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroPaginas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#resolucion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rol"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#subtitulos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#titulo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#transcripcion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#url"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#articulo1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#articulo2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#articulo3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#articulo4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#articulo5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#articulo6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#articulo7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#articulo8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#audio1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#audio2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#audio3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#audio4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#audio5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#audio6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#audio7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#audio8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#institucion1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#institucion2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#institucion3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#institucion4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#institucion5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#institucion6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#institucion7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#institucion8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libro1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libro2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libro3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libro4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libro5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libro6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libro7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#libro8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#persona1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#persona2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#persona3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#persona4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#persona5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#persona6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#persona7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#persona8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video8"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Actor"/>
+        <Class IRI="#Educacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Articulo"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audio"/>
+        <Class IRI="#Multimedia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documento"/>
+        <Class IRI="#Recurso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Institucion"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Libro"/>
+        <Class IRI="#Documento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multimedia"/>
+        <Class IRI="#Recurso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persona"/>
+        <Class IRI="#Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recurso"/>
+        <Class IRI="#Educacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video"/>
+        <Class IRI="#Multimedia"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Actor"/>
+        <Class IRI="#Recurso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Articulo"/>
+        <Class IRI="#Libro"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audio"/>
+        <Class IRI="#Video"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Documento"/>
+        <Class IRI="#Multimedia"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Institucion"/>
+        <Class IRI="#Persona"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Articulo"/>
+        <NamedIndividual IRI="#articulo1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Articulo"/>
+        <NamedIndividual IRI="#articulo2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Articulo"/>
+        <NamedIndividual IRI="#articulo3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Articulo"/>
+        <NamedIndividual IRI="#articulo4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Articulo"/>
+        <NamedIndividual IRI="#articulo5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Articulo"/>
+        <NamedIndividual IRI="#articulo6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Articulo"/>
+        <NamedIndividual IRI="#articulo7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Articulo"/>
+        <NamedIndividual IRI="#articulo8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio"/>
+        <NamedIndividual IRI="#audio1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio"/>
+        <NamedIndividual IRI="#audio2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio"/>
+        <NamedIndividual IRI="#audio3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio"/>
+        <NamedIndividual IRI="#audio4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio"/>
+        <NamedIndividual IRI="#audio5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio"/>
+        <NamedIndividual IRI="#audio6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio"/>
+        <NamedIndividual IRI="#audio7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio"/>
+        <NamedIndividual IRI="#audio8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institucion"/>
+        <NamedIndividual IRI="#institucion1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institucion"/>
+        <NamedIndividual IRI="#institucion2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institucion"/>
+        <NamedIndividual IRI="#institucion3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institucion"/>
+        <NamedIndividual IRI="#institucion4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institucion"/>
+        <NamedIndividual IRI="#institucion5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institucion"/>
+        <NamedIndividual IRI="#institucion6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institucion"/>
+        <NamedIndividual IRI="#institucion7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institucion"/>
+        <NamedIndividual IRI="#institucion8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Libro"/>
+        <NamedIndividual IRI="#libro1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Libro"/>
+        <NamedIndividual IRI="#libro2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Libro"/>
+        <NamedIndividual IRI="#libro3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Libro"/>
+        <NamedIndividual IRI="#libro4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Libro"/>
+        <NamedIndividual IRI="#libro5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Libro"/>
+        <NamedIndividual IRI="#libro6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Libro"/>
+        <NamedIndividual IRI="#libro7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Libro"/>
+        <NamedIndividual IRI="#libro8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persona"/>
+        <NamedIndividual IRI="#persona1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persona"/>
+        <NamedIndividual IRI="#persona2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persona"/>
+        <NamedIndividual IRI="#persona3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persona"/>
+        <NamedIndividual IRI="#persona4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persona"/>
+        <NamedIndividual IRI="#persona5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persona"/>
+        <NamedIndividual IRI="#persona6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persona"/>
+        <NamedIndividual IRI="#persona7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persona"/>
+        <NamedIndividual IRI="#persona8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video"/>
+        <NamedIndividual IRI="#video1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video"/>
+        <NamedIndividual IRI="#video2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video"/>
+        <NamedIndividual IRI="#video3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video"/>
+        <NamedIndividual IRI="#video4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video"/>
+        <NamedIndividual IRI="#video5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video"/>
+        <NamedIndividual IRI="#video6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video"/>
+        <NamedIndividual IRI="#video7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video"/>
+        <NamedIndividual IRI="#video8"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>Maria Salazar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>Educación y Tecnología</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>2023-12-01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuente"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>RIE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>Madrid, España</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>Revista Iberoamericana de Educación</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>Universitario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>Aplicaciones de la Inteligencia Artificial en la Educación</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#articulo1"/>
+        <Literal>https://rieoei.org/ai-educacion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>Diego Núñez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>ISO-8859-1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>Tecnología Educativa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>2024-02-18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuente"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>RTE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>CC BY</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>La Paz, Bolivia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>Revista de Tecnología Educativa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>Universitario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>Evaluación de Plataformas de Aprendizaje Virtual</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#articulo2"/>
+        <Literal>https://rte.edu/evaluacion-virtual</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>Dr. Roberto Álvarez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>Tecnología Educativa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuente"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>Revista Innovación Educativa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>CC BY-ND</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>Madrid, España</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>PDF académico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>Posgrado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>IA en Educación: Tendencias Actuales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#articulo3"/>
+        <Literal>https://revista-innovacion.edu/ia-educacion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>Dra. Sofía Ramírez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>ISO-8859-1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>Ciencias Ambientales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>HTML5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuente"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>Journal of Environmental Education</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>Inglés</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>CC BY-SA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>Boston, EE.UU.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>HTML interactivo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>Secundaria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>Educación sobre Cambio Climático en Zonas Rurales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#articulo4"/>
+        <Literal>https://joeed.org/clima-rural</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>Dr. Alejandro Alvarez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>ISO-8859-1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>Ciencias Ambientales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuente"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>Environmental Science &amp; Technology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>San Francisco, EE.UU</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>PDF interactivo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>Básico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>Impacto de la contaminación del aire en áreas urbanas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#articulo5"/>
+        <Literal>https://envsci.org/contaminacion-aire</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>Ing. Lauren Phillips</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>Desarrollo de software</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuente"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>Journal of software development</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>CC BY</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>Nueva York, EE.UU</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>PDF interactivo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>Mejorando el rendimiento de las aplicaciones moviles con arquitecturas reactivas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#articulo6"/>
+        <Literal>https://jsd.org/rendimiento-moviles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>Dr. Luis Ramírez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>Seguridad Informática</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>2025</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuente"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>Revista de Tecnología Aplicada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>Madrid, España</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>PDF descargable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>El Impacto de la Computación Cuántica en la Seguridad de los Datos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#articulo7"/>
+        <Literal>https://tecnologiaaplicada.com/computacion-cuantica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>Ing. Ana López</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>Tecnologías de la Información</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuente"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>Revista de Innovación Tecnológica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>CC BY-SA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>Barcelona, España</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>PDF interactivo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>Blockchain y su Aplicación en la Gestión de Datos en la Nube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#articulo8"/>
+        <Literal>https://innovaciontecnologica.com/blockchain-nube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>BBC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>Podcast educativo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>Idiomas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>04:40:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">2024-04-24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>MP3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Inglés</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>Dominio Público</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>Spotify</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>Medio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>Learning Easy English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transcripcion"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#audio1"/>
+        <Literal>https://open.spotify.com/show/7bm7GARt4OYKHPd3xbtmSR</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>Pocho Costa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>Inteligencia Artificial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>Ciencias de la Computación</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>00:15:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>2019-09-24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>AAC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>Uso educativo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>Spotify</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>Inteligencia Artificial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transcripcion"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#audio2"/>
+        <Literal>https://open.spotify.com/show/6Ej4jertUixuVlqG8gYYEX</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>Dr. Javier Méndez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>Estándar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>Podcast cultural</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>Arte</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>00:45:20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>03/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>MP3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>CC BY-SA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>Spotify</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>Universidad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>Historia del Arte Moderno</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#audio3"/>
+        <Literal>https://spotify.com/arte-moderno</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>Prof. Claire Dubois</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>Audioguía lingüística</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>Francés</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>01:15:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>AAC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>Español-Francés</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>CC BY-NC-ND</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>CD educativo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>Adultos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>Gramática Francesa Básica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#audio4"/>
+        <Literal>N/A</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>H. G. Wells.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>Audiolibro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>Literatura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>05:35:20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>MP3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>CC BY</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>Plataforma de audiolibros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>General</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>La guerra de los mundos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#audio5"/>
+        <Literal>https://audiolibros.com/la-guerra-de-los-mundos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>Dra. Laura Guttenberg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>Podcast educativo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>Psicología</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>00:45:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>MP3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>Spotify</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>Entendiendo la mente humana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#audio6"/>
+        <Literal>https://spotify.com/entendiendo-la-mente-humana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>George Orwell</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>Audiolibro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>Literatura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>50:26:14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>MP3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>Plataforma de audiolibros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>General</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>1984</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#audio7"/>
+        <Literal>https://audiolibros.com/1984</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>John Zelle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoria"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>Audiolibro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>Informática</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>04:08:04</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>2006</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>MP3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>Plataforma de audiolibros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>Universitario</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>Introducción a la Programación en Java</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#audio8"/>
+        <Literal>https://audiolibros.com/introduccion-java</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <NamedIndividual IRI="#institucion1"/>
+        <Literal>1832</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#institucion1"/>
+        <Literal>info@umss.edu.bo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#institucion1"/>
+        <Literal>Universidad Mayor de San Simón</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#institucion1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+        <NamedIndividual IRI="#institucion1"/>
+        <Literal>Universidad Pública</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <NamedIndividual IRI="#institucion2"/>
+        <Literal>1981</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#institucion2"/>
+        <Literal>4490296</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#institucion2"/>
+        <Literal>TECNOLÓGICO INDUSTRIAL COMERCIAL PUERTO MEJILLONES</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#institucion2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">350</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+        <NamedIndividual IRI="#institucion2"/>
+        <Literal>Instituto Técnico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Tipo"/>
+        <NamedIndividual IRI="#institucion3"/>
+        <Literal>Universidad pública</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <NamedIndividual IRI="#institucion3"/>
+        <Literal>100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#institucion3"/>
+        <Literal>info@uned.edu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#institucion3"/>
+        <Literal>Universidad Nacional de Educación</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#institucion3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <NamedIndividual IRI="#institucion4"/>
+        <Literal>30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#institucion4"/>
+        <Literal>contacto@esperanza.edu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#institucion4"/>
+        <Literal>Escuela La Esperanza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#institucion4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+        <NamedIndividual IRI="#institucion4"/>
+        <Literal>Escuela pública</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <NamedIndividual IRI="#institucion5"/>
+        <Literal>50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#institucion5"/>
+        <Literal>sagrada_familia@edu.com.bo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#institucion5"/>
+        <Literal>Unidad Educativa Sagrada Familia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#institucion5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+        <NamedIndividual IRI="#institucion5"/>
+        <Literal>Escuela pública</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <NamedIndividual IRI="#institucion6"/>
+        <Literal>25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#institucion6"/>
+        <Literal>universidad_lat_del_valle@edu.com.bo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#institucion6"/>
+        <Literal>Universidad Latinoamericana del Valle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#institucion6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+        <NamedIndividual IRI="#institucion6"/>
+        <Literal>Universidad Privada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <NamedIndividual IRI="#institucion7"/>
+        <Literal>14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#institucion7"/>
+        <Literal>universidadprivadaadventistabo@edu.com.bo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#institucion7"/>
+        <Literal>Universidad Privada Adventista</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#institucion7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+        <NamedIndividual IRI="#institucion7"/>
+        <Literal>Universidad Privada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <NamedIndividual IRI="#institucion8"/>
+        <Literal>23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#institucion8"/>
+        <Literal>universidaddomingosavio@edu.com.bo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#institucion8"/>
+        <Literal>Universidad Privada Domingo Savio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#institucion8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+        <NamedIndividual IRI="#institucion8"/>
+        <Literal>Universidad Privada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>Ian Sommerville</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>Ingeniería de Software</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edicion"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>Novena</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#editorial"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>Pearson Educación</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>2010-03-13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#identificador"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>ISBN 978-607-32-0603-7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>Españöl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>Uso Educativo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>Impreso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">792</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>Ingeniería de Software (9ª edición)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#libro1"/>
+        <Literal>https://gc.scalahed.com/recursos/files/r161r/w25469w/ingdelsoftwarelibro9_compressed.pdf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>Abraham Silberschatz, Henry Korth, S. Sudarshan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>Ciencias de la Computación</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edicion"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>Cuarta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#editorial"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>McGraw Hill Interamericana de Espana, SL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#identificador"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>ISBN 9788448136543</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>Uso Educativo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>Digital</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">787</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>Fundamentos de Bases de Datos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#libro2"/>
+        <Literal>https://biblioteca.univalle.edu.ni/files/original/01aebde3cc06dce33f2538aa2724eb2541cb9473.pdf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>Ing. Pablo Silva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>Informática</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edicion"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>1ra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#editorial"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>TechEd</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#identificador"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>ISBN 978-987-123-456</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>CC BY</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>PDF descargable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>Universidad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>Programación en Python para Principiantes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#libro3"/>
+        <Literal>https://teched.com/python-libro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>Dra. Laura Fernández</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>Química</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edicion"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>3ra revisada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#editorial"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>Ciencia Editores</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>ePub</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#identificador"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>ISBN 978-456-789-123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>Plataforma QuimicaOnline</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>Universidad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">450</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>Manual de Química Orgánica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#libro4"/>
+        <Literal>https://quimicaonline.com/manual</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>Dr. Miguel Alvarez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>Biología</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edicion"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>2da edicion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#editorial"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>Books &amp; Books</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>ePub</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#identificador"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>ISBN 978-123-456-789</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>CC BY-NC-SA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>Plataforma BioEduca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">320</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>Fundamentos de biología molecular</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#libro5"/>
+        <Literal>https://bioeduca.com/fundamentos-bio-molecular</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>Dr. Roberto Sanchez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>Programación</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edicion"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>5ta edicion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#editorial"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>TechBooks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>ePub</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#identificador"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>ISBN 978-123-999-999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>Plataforma TechLearn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">620</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>Programación en C#</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#libro6"/>
+        <Literal>https://techlearn.com/programacion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>Ing. Laura Martínez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>UTF-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>Desarrollo Web</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edicion"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>3ra Edicion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#editorial"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>CodeBooks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#identificador"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>ISBN 887-154-111-100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>CC BY-SA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>Plataforma WebDevHub</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">517</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>Desarrollo Web con JavaScript</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#libro7"/>
+        <Literal>https://webdevhub.com/desarrollo-javascript</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>Dr. Felipe González</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>UTF-16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>Informática</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edicion"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>1ra Edicion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#editorial"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>FutureTech Press</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>PDF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#identificador"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>ISBN 887-885-781-100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>CC BY</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>Plataforma AI Learn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">210</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>Inteligencia Artificial para Todos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#libro8"/>
+        <Literal>https://ailearn.com/ia-para-todos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#persona1"/>
+        <Literal>susana.rodriguez@universidad.edu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#persona1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gradoAcademico"/>
+        <NamedIndividual IRI="#persona1"/>
+        <Literal>Doctorado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#persona1"/>
+        <Literal>Susana Rodríguez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#persona1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rol"/>
+        <NamedIndividual IRI="#persona1"/>
+        <Literal>Docente Investigadora</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#persona2"/>
+        <Literal>alvaro.quispe@umss.bo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#persona2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gradoAcademico"/>
+        <NamedIndividual IRI="#persona2"/>
+        <Literal>Maestría</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#persona2"/>
+        <Literal>Álvaro Quispe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#persona2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rol"/>
+        <NamedIndividual IRI="#persona2"/>
+        <Literal>Coordinador Academico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#persona3"/>
+        <Literal>maria.g@email.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#persona3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gradoAcademico"/>
+        <NamedIndividual IRI="#persona3"/>
+        <Literal>Universidad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#persona3"/>
+        <Literal>María González</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#persona3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rol"/>
+        <NamedIndividual IRI="#persona3"/>
+        <Literal>Estudiante</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#persona4"/>
+        <Literal>lherrera@universidad.edu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#persona4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gradoAcademico"/>
+        <NamedIndividual IRI="#persona4"/>
+        <Literal>Doctorado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#persona4"/>
+        <Literal>Dr. Luis Herrera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#persona4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rol"/>
+        <NamedIndividual IRI="#persona4"/>
+        <Literal>Docente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#persona5"/>
+        <Literal>susan.fe18@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#persona5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gradoAcademico"/>
+        <NamedIndividual IRI="#persona5"/>
+        <Literal>doctorado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#persona5"/>
+        <Literal>Susana Felipez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#persona5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rol"/>
+        <NamedIndividual IRI="#persona5"/>
+        <Literal>Docente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#persona6"/>
+        <Literal>josh888_gh@hotmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#persona6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gradoAcademico"/>
+        <NamedIndividual IRI="#persona6"/>
+        <Literal>bachillerato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#persona6"/>
+        <Literal>Joshua Calvimontes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#persona6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rol"/>
+        <NamedIndividual IRI="#persona6"/>
+        <Literal>Estudiante</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#persona7"/>
+        <Literal>joseparedes@hotmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#persona7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gradoAcademico"/>
+        <NamedIndividual IRI="#persona7"/>
+        <Literal>licenciatura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#persona7"/>
+        <Literal>Jose Paredes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#persona7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rol"/>
+        <NamedIndividual IRI="#persona7"/>
+        <Literal>Docente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contacto"/>
+        <NamedIndividual IRI="#persona8"/>
+        <Literal>cameduardo547@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#persona8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gradoAcademico"/>
+        <NamedIndividual IRI="#persona8"/>
+        <Literal>doctorado</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#persona8"/>
+        <Literal>Camilo Eduardo Rodriguez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <NamedIndividual IRI="#persona8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rol"/>
+        <NamedIndividual IRI="#persona8"/>
+        <Literal>Docente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>Fazt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>Desarrollo Web</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>04:50:43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>2022-08-11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>MP4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>Dominio Público</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>YouTube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resolucion"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>1080p</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subtitulos"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>Introducción a React para Principiantes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transcripcion"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#video1"/>
+        <Literal>https://www.youtube.com/watch?v=rLoWMU4L_qE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>freeCodeCamp Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>Desarrollo Web</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>09:15:20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>2021-08-24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>MP4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>Dominio Público</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>YouTube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resolucion"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>1080p</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subtitulos"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>Aprende JavaScript - Curso Completo desde Cero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transcripcion"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#video2"/>
+        <Literal>https://www.youtube.com/watch?v=ivdTnPl1ND0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>Prof. Carlos Ruiz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>Matemáticas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>00:12:45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>05/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>MP4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>CC BY 3.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>YouTube Edu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>Secundaria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resolucion"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>1080p</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subtitulos"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>Funciones Matemáticas Básicas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transcripcion"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#video3"/>
+        <Literal>https://youtube.com/funciones-matematicas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>Biol. Ana Torres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>Biología</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>00:08:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>10/2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>Streaming</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>Plataforma BioAprende</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>Bachillerato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resolucion"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>720p</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subtitulos"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>La Fotosíntesis Explicada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transcripcion"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#video4"/>
+        <Literal>https://bioaprende.com/fotosintesis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>Prof. Ana Lopez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>Informática</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>01:30:15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>03/2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>MP4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>CC BY 4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>Superior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resolucion"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>1080p</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subtitulos"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>Introducción a la programación en Python</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transcripcion"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#video5"/>
+        <Literal>https://youtube.com/introduccion-python</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>Dr. Jorge Martinez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>Ciencias Naturales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>00:15:20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>02/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>MP4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>CC BY-SA 4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>Vimeo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>Primaria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resolucion"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>1080p</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subtitulos"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>Ciclo del agua en la naturaleza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transcripcion"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#video6"/>
+        <Literal>https://vimeo.com/ciclo-del-agua</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>Dr. Luis Gómez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>Ciencias Naturales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>00:10:30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>10/2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>Streaming</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>Plataforma EcoEducativa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>Bachillerato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resolucion"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>720p</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subtitulos"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>Mamiferos y su ciclo de vida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transcripcion"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#video7"/>
+        <Literal>https://ecoeducativa.com/mamiferos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#autor"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>Dr. Luis Bolaños</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calidad"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disciplina"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>Astronomía</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracion"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>00:15:24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>10/2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#formato"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>Streaming</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#idioma"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>Español</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#licencia"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>CC BY-NC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#medio"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>Plataforma CienciaEdu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nivelEducativo"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>Secundaria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#resolucion"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>720p</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#subtitulos"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>El Sistema Solar y sus Planetas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#transcripcion"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#video8"/>
+        <Literal>https://cienciaedu.com/sistema-solar</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#agrupa_multiples"/>
+        <Class IRI="#Educacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dispone_de"/>
+        <Class IRI="#Documento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_parte_de"/>
+        <Class IRI="#Recurso"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_parte_de_recurso"/>
+        <Class IRI="#Documento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_parte_de_recurso"/>
+        <Class IRI="#Multimedia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_un"/>
+        <Class IRI="#Institucion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_un"/>
+        <Class IRI="#Persona"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_un_tipo_de_documento"/>
+        <Class IRI="#Articulo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_un_tipo_de_documento"/>
+        <Class IRI="#Libro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_un_tipo_de_multimedia"/>
+        <Class IRI="#Audio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#es_un_tipo_de_multimedia"/>
+        <Class IRI="#Video"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esta_asociada"/>
+        <Class IRI="#Persona"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#podria_ser"/>
+        <Class IRI="#Multimedia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publica"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#puede_incluir"/>
+        <Class IRI="#Recurso"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#puede_ser"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#utiliza"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#agrupa_multiples"/>
+        <Class IRI="#Recurso"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dispone_de"/>
+        <Class IRI="#Articulo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dispone_de"/>
+        <Class IRI="#Libro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#es_parte_de"/>
+        <Class IRI="#Educacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#es_parte_de_recurso"/>
+        <Class IRI="#Recurso"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#es_un"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#es_un_tipo_de_documento"/>
+        <Class IRI="#Documento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#es_un_tipo_de_multimedia"/>
+        <Class IRI="#Multimedia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esta_asociada"/>
+        <Class IRI="#Institucion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#podria_ser"/>
+        <Class IRI="#Audio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#podria_ser"/>
+        <Class IRI="#Video"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publica"/>
+        <Class IRI="#Recurso"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puede_incluir"/>
+        <Class IRI="#Documento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puede_incluir"/>
+        <Class IRI="#Multimedia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puede_ser"/>
+        <Class IRI="#Institucion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#puede_ser"/>
+        <Class IRI="#Persona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#utiliza"/>
+        <Class IRI="#Recurso"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#autor"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#calidad"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#categoria"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#contacto"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#disciplina"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#duracion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#edad"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#edicion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#editorial"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#formato"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#fuente"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#gradoAcademico"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#identificador"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#idioma"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#licencia"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#medio"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nivelEducativo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nombre"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numeroPaginas"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#resolucion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#rol"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#subtitulos"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#titulo"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#transcripcion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#url"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#autor"/>
+        <Class IRI="#Recurso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <Class IRI="#Institucion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#calidad"/>
+        <Class IRI="#Multimedia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#categoria"/>
+        <Class IRI="#Audio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <Class IRI="#Documento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contacto"/>
+        <Class IRI="#Actor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#disciplina"/>
+        <Class IRI="#Recurso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duracion"/>
+        <Class IRI="#Multimedia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#edad"/>
+        <Class IRI="#Persona"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#edicion"/>
+        <Class IRI="#Libro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#editorial"/>
+        <Class IRI="#Libro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <Class IRI="#Recurso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#formato"/>
+        <Class IRI="#Recurso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fuente"/>
+        <Class IRI="#Articulo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gradoAcademico"/>
+        <Class IRI="#Persona"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#identificador"/>
+        <Class IRI="#Libro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#idioma"/>
+        <Class IRI="#Recurso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#licencia"/>
+        <Class IRI="#Recurso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <Class IRI="#Articulo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#medio"/>
+        <Class IRI="#Recurso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nivelEducativo"/>
+        <Class IRI="#Recurso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Actor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <Class IRI="#Actor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroPaginas"/>
+        <Class IRI="#Documento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#resolucion"/>
+        <Class IRI="#Video"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rol"/>
+        <Class IRI="#Persona"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#subtitulos"/>
+        <Class IRI="#Video"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+        <Class IRI="#Institucion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#titulo"/>
+        <Class IRI="#Recurso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#transcripcion"/>
+        <Class IRI="#Multimedia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#url"/>
+        <Class IRI="#Recurso"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#autor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#añoDeFundacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#calidad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#categoria"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#codificacionDeCaracteres"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#contacto"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#disciplina"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duracion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#edad"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#edicion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#editorial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fechaDePublicacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#formato"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fuente"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gradoAcademico"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#identificador"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#idioma"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#licencia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lugarDePublicacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#medio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nivelEducativo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroDePublicaciones"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroPaginas"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#resolucion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rol"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#subtitulos"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoDeInstitucion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#titulo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#transcripcion"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#url"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>

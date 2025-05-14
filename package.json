@@ -1,0 +1,25 @@
+{
+  "name": "buscadorsemantico",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@comunica/query-sparql": "^4.2.0",
+    "@rdfjs/data-model": "^2.1.0",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "levenshtein": "^1.0.5",
+    "n3": "^1.25.2",
+    "rdflib": "^2.2.37",
+    "rdfxml-streaming-parser": "^3.0.1",
+    "xml2js": "^0.6.2"
+  }
+}

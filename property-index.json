@@ -1,0 +1,50 @@
+{
+  "type": {
+    "count": 2123,
+    "values": {}
+  },
+  "Prefix": {
+    "count": 7,
+    "values": {}
+  },
+  "Declaration": {
+    "count": 104,
+    "values": {}
+  },
+  "SubClassOf": {
+    "count": 20,
+    "values": {}
+  },
+  "DisjointClasses": {
+    "count": 10,
+    "values": {}
+  },
+  "ClassAssertion": {
+    "count": 96,
+    "values": {}
+  },
+  "DataPropertyAssertion": {
+    "count": 1638,
+    "values": {}
+  },
+  "ObjectPropertyDomain": {
+    "count": 34,
+    "values": {}
+  },
+  "ObjectPropertyRange": {
+    "count": 34,
+    "values": {}
+  },
+  "SubDataPropertyOf": {
+    "count": 62,
+    "values": {}
+  },
+  "DataPropertyDomain": {
+    "count": 62,
+    "values": {}
+  },
+  "DataPropertyRange": {
+    "count": 62,
+    "values": {}
+  }
+}
