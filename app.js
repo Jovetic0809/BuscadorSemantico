@@ -189,6 +189,36 @@ app.get('/instancia/:id', (req, res) => {
     }
   });
 
+  app.get('/buscar-con-id', (req, res) => {
+  const query = req.query.q?.toLowerCase() || '';
+  if (!query || query.length < 2) {
+    return res.status(400).json({ error: 'Consulta demasiado corta o vacía.' });
+  }
+
+  const root = Object.values(rawOntology)[0];
+  const dataAssertions = root?.['DataPropertyAssertion'] || [];
+
+  const resultados = [];
+
+  dataAssertions.forEach(assertion => {
+    const namedIndNode = assertion['NamedIndividual']?.[0];
+    const literalNode = assertion['Literal']?.[0];
+
+    const indivIRI = namedIndNode?.$?.IRI;
+    const id = indivIRI?.split('#')[1];
+    const texto = typeof literalNode === 'string' ? literalNode : literalNode?._;
+
+    if (id && texto && texto.toLowerCase().includes(query)) {
+      resultados.push({ texto, id });
+    }
+  });
+
+  if (resultados.length === 0) {
+    return res.status(404).json({ resultados: [], mensaje: 'No se encontraron coincidencias.' });
+  }
+
+  res.json({ resultados });
+});
 
 
 // Iniciar servidor

@@ -3819,25 +3819,19 @@
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#titulo"/>
       <owl:NamedIndividual IRI="#articuloDB1"/>
-      <rdf:Literal>La diversidad de la ciencia</rdf:Literal>
+      <rdf:Literal>Algorithms + Data Structures = Programs</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#resumen"/>
       <owl:NamedIndividual IRI="#articuloDB1"/>
-      <rdf:Literal>La diversidad de la ciencia. Una visión personal de la búsqueda de Dios es un libro de Carl Sagan editado y actualizado por su esposa, Ann Druyan, en el décimo aniversario de su fallecimiento. Es una recopilación de las lecturas realizadas por el doctor Sagan en las Conferencias Gifford sobre Teología Natural, a las que acudió como invitado en el año 1985.​ En ellas el autor expresa sus reflexiones sobre la relación entre ciencia y religión. Las lecturas fueron acompañadas de fotografías de objetos estelares que, actualizados por Steven Soter, aparecen en el libro. Las Conferencias Gifford fueron establecidos por Adam Lord Gifford (1820-1887), senador de la Escuela Superior de Justicia de Escocia, con la intención de &quot;promover y difundir el estudio de la Teología Natural en el sentido amplio del término. En otras palabras, el conocimiento de Dios&quot;.​ El título del libro es una variación de otro libro, &quot;Las variedades de la experiencia religiosa&quot;​ de William James, que pronunció las Conferencias Gifford a comienzos del siglo XX.​ Sagan admiraba la definición que James hizo sobre la religión como la &quot;sensación de hallarse en casa en el universo&quot;. Esta definición fue citada en la conclusión del libro Un punto azul pálido. La editora lo explica de esta manera: Mi variación sobre el título de James pretende transmitir que la ciencia es un camino que conduce a niveles de conciencia de otro modo inaccesibles; que, llevando la contraria a la tendencia propia de nuestra cultura, la única gratificación que la ciencia nos niega es el engaño. Espero que el título refleje también la amplitud de la búsqueda y la capacidad de percepción que distinguió la vida y la obra indivisibles de Carl Sagan. La amplitud de su experiencia científica quedaba patente en su fidelidad, humildad, solidaridad, asombro, amor, valentía, memoria, franqueza y compasión. Carl Sagan, La diversidad de la ciencia. Una visión personal de la búsqueda de Dios. Introducción de la editora. Tras los apartados de Agradecimientos, Introducción de la editora e Introducción del autor, el libro se compone de los siguientes capítulos:</rdf:Literal>
+      <rdf:Literal>Algorithms + Data Structures = Programs is a 1976 book written by Niklaus Wirth covering some of the fundamental topics of computer programming, particularly that algorithms and data structures are inherently related. For example, if one has a sorted list one will use a search algorithm optimal for sorted lists. The book was one of the most influential computer science books of the time and, like Wirth&apos;s other work, was extensively used in education. The Turbo Pascal compiler written by Anders Hejlsberg was largely inspired by the Tiny Pascal compiler in Niklaus Wirth&apos;s book.</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#autor"/>
       <owl:NamedIndividual IRI="#articuloDB1"/>
-      <rdf:Literal>Carl Sagan</rdf:Literal>
-    </owl:DataPropertyAssertion>
-
-    <owl:DataPropertyAssertion>
-      <owl:DataProperty IRI="#fechaDePublicacion"/>
-      <owl:NamedIndividual IRI="#articuloDB1"/>
-      <rdf:Literal rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-11-02</rdf:Literal>
+      <rdf:Literal>نيكلاوس ويرث</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:NamedIndividual rdf:about="#articuloDB2">
@@ -3847,25 +3841,19 @@
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#titulo"/>
       <owl:NamedIndividual IRI="#articuloDB2"/>
-      <rdf:Literal>Lady Midnight</rdf:Literal>
+      <rdf:Literal>Introduction to Automata Theory, Languages, and Computation</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#resumen"/>
       <owl:NamedIndividual IRI="#articuloDB2"/>
-      <rdf:Literal>Lady Midnight es una novela juvenil de fantasía urbana escrita por Cassandra Clare. Es el primer libro de la trilogía Cazadores de Sombras: Renacimiento (título original: The Dark Artifices), situado cronológicamente en cuarto lugar en la serie completa de Cazadores de Sombras. El libro sigue los acontecimientos ocurridos en Los Ángeles en 2012, centrándose en los residentes del instituto de Los Ángeles. El título del libro está basado en el poema Annabel Lee de Edgar Allan Poe. El título de todos los capítulos procede de los versos de ese poema.​</rdf:Literal>
+      <rdf:Literal>Introduction to Automata Theory, Languages, and Computation is an influential computer science textbook by John Hopcroft and Jeffrey Ullman on formal languages and the theory of computation. Rajeev Motwani contributed to later editions beginning in 2000.</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#autor"/>
       <owl:NamedIndividual IRI="#articuloDB2"/>
-      <rdf:Literal>Cassandra Clare</rdf:Literal>
-    </owl:DataPropertyAssertion>
-
-    <owl:DataPropertyAssertion>
-      <owl:DataProperty IRI="#fechaDePublicacion"/>
-      <owl:NamedIndividual IRI="#articuloDB2"/>
-      <rdf:Literal rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-08</rdf:Literal>
+      <rdf:Literal>جيفري أولمان</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:NamedIndividual rdf:about="#articuloDB3">
@@ -3875,25 +3863,176 @@
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#titulo"/>
       <owl:NamedIndividual IRI="#articuloDB3"/>
-      <rdf:Literal>Lipstick Jungle</rdf:Literal>
+      <rdf:Literal>A Commentary on the UNIX Operating System</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#resumen"/>
       <owl:NamedIndividual IRI="#articuloDB3"/>
-      <rdf:Literal>Lipstick Jungle es una novela de la escritora Candace Bushnell, que entrelaza las historias de tres mujeres.</rdf:Literal>
+      <rdf:Literal>A Commentary on the UNIX Operating System by John Lions (later reissued as Lions&apos; Commentary on UNIX 6th Edition) is a highly influential 1976 publication containing analytical commentary on the source code of the 6th Edition Unix computer operating system &quot;resident nucleus&quot; (i.e., kernel) software, plus copy formatted and indexed by Lions, of said source code obtained from the authors at AT&amp;T Bell Labs. It is also commonly referred to as the Lions Book. Itself an exemplar of the early success of UNIX as portable code for a publishing platform, Lions&apos; work was typeset using UNIX tools, on systems running code ported at the University, similar to that which it documented, see page vi. It was commonly held to be the most copied book in computer science. Despite its age, Lions&apos;s book is still considered an excellent commentary on simple, high quality code. Lions&apos; work was most recently reprinted in 1996 by Peer-To-Peer Communications, and has been circulated, recreated or reconstructed variously in a number of media by other parties, e.g. see webpage of Greg Lehey.</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#autor"/>
       <owl:NamedIndividual IRI="#articuloDB3"/>
-      <rdf:Literal>Candace Bushnell</rdf:Literal>
+      <rdf:Literal>John Lions</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#articuloDB4">
+      <rdf:type rdf:resource="#Articulo"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#articuloDB4"/>
+      <rdf:Literal>Dragon book</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
-      <owl:DataProperty IRI="#fechaDePublicacion"/>
-      <owl:NamedIndividual IRI="#articuloDB3"/>
-      <rdf:Literal rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-06</rdf:Literal>
+      <owl:DataProperty IRI="#resumen"/>
+      <owl:NamedIndividual IRI="#articuloDB4"/>
+      <rdf:Literal>Compilers: Principles, Techniques, and Tools is a computer science textbook by Alfred V. Aho, Monica S. Lam, Ravi Sethi, and Jeffrey D. Ullman about compiler construction for programming languages. First published in 1986, it is widely regarded as the classic definitive compiler technology text. It is known as the Dragon Book to generations of computer scientists as its cover depicts a knight and a dragon in battle, a metaphor for conquering complexity. This name can also refer to Aho and Ullman&apos;s older Principles of Compiler Design.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#articuloDB4"/>
+      <rdf:Literal>Jeffrey D. Ullman</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#articuloDB5">
+      <rdf:type rdf:resource="#Articulo"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#articuloDB5"/>
+      <rdf:Literal>Programming Languages: Application and Interpretation</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#resumen"/>
+      <owl:NamedIndividual IRI="#articuloDB5"/>
+      <rdf:Literal>Programming Languages: Application and Interpretation (PLAI) is a free programming language textbook by Shriram Krishnamurthi. It is in use at over 30 universities, in several high-schools. The book differs from most other programming language texts in its attempt to wed two different styles of programming language education: one based on language surveys and another based on interpreters. In the former style, it can be too easy to ignore difficult technical points, which are sometimes best understood by trying to reproduce them (via implementation); in the latter, it can be too easy to miss the high-level picture in the forest of details. PLAI therefore interleaves the two, using the survey approach to motivate ideas and interpreters to understand them. The book is accompanied by supporting software that runs in the Racket programming language. Since PLAI is constantly under development, some of the newer material (especially assignments) is found on course pages at Brown University. PLAI is also an experiment in publishing methods. The essayBooks as Software discusses why the book is self-published. In addition, the book is currently (as of December 2014) available not only in (for-pay) print but also both free and for-pay electronic editions.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#articuloDB5"/>
+      <rdf:Literal>Shriram Krishnamurthi</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#articuloDB6">
+      <rdf:type rdf:resource="#Articulo"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#articuloDB6"/>
+      <rdf:Literal>Structure and Interpretation of Computer Programs</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#resumen"/>
+      <owl:NamedIndividual IRI="#articuloDB6"/>
+      <rdf:Literal>Structure and Interpretation of Computer Programs (SICP) is a computer science textbook by Massachusetts Institute of Technology professors Harold Abelson and Gerald Jay Sussman with Julie Sussman. It is known as the &quot;Wizard Book&quot; in hacker culture. It teaches fundamental principles of computer programming, including recursion, abstraction, modularity, and programming language design and implementation. MIT Press published the first edition in 1984, and the second edition in 1996. It was formerly used as the textbook for MIT&apos;s introductory course in computer science. SICP focuses on discovering general patterns for solving specific problems, and building software systems that make use of those patterns. MIT Press published the JavaScript edition in 2022.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#articuloDB6"/>
+      <rdf:Literal>جيرالد جاي سوسمان</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#articuloDB7">
+      <rdf:type rdf:resource="#Articulo"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#articuloDB7"/>
+      <rdf:Literal>Computer Graphics: Principles and Practice</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#resumen"/>
+      <owl:NamedIndividual IRI="#articuloDB7"/>
+      <rdf:Literal>Computer Graphics: Principles and Practice is a textbook written by James D. Foley, Andries van Dam, Steven K. Feiner, John Hughes, Morgan McGuire, David F. Sklar, and Kurt Akeley and published by Addison–Wesley. First published in 1982 as Fundamentals of Interactive Computer Graphics, it is widely considered a classic standard reference book on the topic of computer graphics. It is sometimes known as the bible of computer graphics (due to its size).</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#articuloDB7"/>
+      <rdf:Literal>Andries van Dam</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#articuloDB8">
+      <rdf:type rdf:resource="#Articulo"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#articuloDB8"/>
+      <rdf:Literal>Essentials of Programming Languages</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#resumen"/>
+      <owl:NamedIndividual IRI="#articuloDB8"/>
+      <rdf:Literal>Essentials of Programming Languages (EOPL) is a textbook on programming languages by Daniel P. Friedman, Mitchell Wand, and . EOPL surveys the principles of programming languages from an operational perspective. It starts with an interpreter in Scheme for a simple functional core language similar to the lambda calculus and then systematically adds constructs. For each addition, for example, variable assignment or thread-like control, the book illustrates an increase in expressive power of the programming language and a demand for new constructs for the formulation of a direct interpreter. The book also demonstrates that systematic transformations, say, store-passing style or continuation-passing style, can eliminate certain constructs from the language in which the interpreter is formulated. The second part of the book is dedicated to a systematic translation of the interpreter(s) into register machines. The transformations show how to eliminate higher-order closures; continuation objects; recursive function calls; and more. At the end, the reader is left with an &quot;interpreter&quot; that uses nothing but tail-recursive function calls and assignment statements plus conditionals. It becomes trivial to translate this code into a C program or even an assembly program. As a bonus, the book shows how to pre-compute certain pieces of &quot;meaning&quot; and how to generate a representation of these pre-computations. Since this is the essence of compilation, the book also prepares the reader for a course on the principles of compilation and language translation, a related but distinct topic. Apart from the text explaining the key concepts, the book also comprises a series of exercises, enabling the readers to explore alternative designs and other issues. Like SICP, EOPL represents a significant departure from the prevailing textbook approach in the 1980s. At the time, a book on the principles of programming languages presented four to six (or even more) programming languages and discussed their programming idioms and their implementation at a high level. The most successful books typically covered ALGOL 60 (and the so-called Algol family of programming languages), SNOBOL, Lisp, and Prolog. Even today, a fair number of textbooks on programming languages are just such surveys, though their scope has narrowed. EOPL was started in 1983, when Indiana was one of the leading departments in programming languages research. Eugene Kohlbecker, one of Friedman&apos;s PhD students, transcribed and collected his &quot;311 lectures&quot;. Other faculty members, including Mitch Wand and Christopher Haynes, started contributing and turned &quot;The Hitchhiker&apos;s Guide to the Meta-Universe&quot;—as Kohlbecker had called it—into the systematic, interpreter and transformation-based survey that it is now. Over the 25 years of its existence, the book has become a near-classic; it is now in its third edition, including additional topics such as types and modules. Its first part now incorporates ideas on programming from HtDP, another unconventional textbook, which uses Scheme to teach the principles of program design. The authors, as well as Matthew Flatt, have recently provided DrRacket plug-ins and language levels for teaching with EOPL. EOPL has spawned at least two other related texts: Queinnec&apos;s Lisp in Small Pieces and Krishnamurthi&apos;s Programming Languages: Application and Interpretation.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#articuloDB8"/>
+      <rdf:Literal>دانيال بي فريدمان</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#articuloDB9">
+      <rdf:type rdf:resource="#Articulo"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#articuloDB9"/>
+      <rdf:Literal>أنظمة التشغيل الحديثة</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#resumen"/>
+      <owl:NamedIndividual IRI="#articuloDB9"/>
+      <rdf:Literal>Modern Operating Systems is a book written by Andrew Tanenbaum, a version (which does not target implementation) of his book Operating Systems: Design and Implementation. It is now in its 4th edition, published March 2014 (ISBN 0-13-359162-X), written together with . Modern Operating Systems (mostly known as MOS) is a popular book across the globe and includes the fundamentals of an operating system with small amounts of code written in autonomous C language. MOS describes many scheduling algorithms. 
+* v 
+* t 
+* e</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#articuloDB9"/>
+      <rdf:Literal>أندرو تانينباوم</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#articuloDB10">
+      <rdf:type rdf:resource="#Articulo"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#articuloDB10"/>
+      <rdf:Literal>编程宇宙</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#resumen"/>
+      <owl:NamedIndividual IRI="#articuloDB10"/>
+      <rdf:Literal>Programming the Universe: A Quantum Computer Scientist Takes On the Cosmos is a 2006 popular science book by Seth Lloyd, professor of mechanical engineering at the Massachusetts Institute of Technology. The book proposes that the Universe is a quantum computer (supercomputer), and advances in the understanding of physics may come from viewing entropy as a phenomenon of information, rather than simply thermodynamics. Lloyd also postulates that the Universe can be fully simulated using a quantum computer; however, in the absence of a theory of quantum gravity, such a simulation is not yet possible. &quot;Particles not only collide, they compute.&quot;</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#articuloDB10"/>
+      <rdf:Literal>سيث لويد</rdf:Literal>
     </owl:DataPropertyAssertion>
 
   <!-- Instancias de Libro -->
@@ -3905,19 +4044,13 @@
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#titulo"/>
       <owl:NamedIndividual IRI="#libroDB1"/>
-      <rdf:Literal>El caso del secretario italiano</rdf:Literal>
+      <rdf:Literal>Algorithms + Data Structures = Programs</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#autor"/>
       <owl:NamedIndividual IRI="#libroDB1"/>
-      <rdf:Literal>Caleb Carr</rdf:Literal>
-    </owl:DataPropertyAssertion>
-
-    <owl:DataPropertyAssertion>
-      <owl:DataProperty IRI="#isbn"/>
-      <owl:NamedIndividual IRI="#libroDB1"/>
-      <rdf:Literal>0-7867-1548-0</rdf:Literal>
+      <rdf:Literal>نيكلاوس ويرث</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:NamedIndividual rdf:about="#libroDB2">
@@ -3927,19 +4060,19 @@
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#titulo"/>
       <owl:NamedIndividual IRI="#libroDB2"/>
-      <rdf:Literal>El alienista (novela)</rdf:Literal>
+      <rdf:Literal>Introduction to Automata Theory, Languages, and Computation</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#autor"/>
       <owl:NamedIndividual IRI="#libroDB2"/>
-      <rdf:Literal>Caleb Carr</rdf:Literal>
+      <rdf:Literal>جيفري أولمان</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#isbn"/>
       <owl:NamedIndividual IRI="#libroDB2"/>
-      <rdf:Literal>0-679-41779-6</rdf:Literal>
+      <rdf:Literal>0-201-02988-X</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:NamedIndividual rdf:about="#libroDB3">
@@ -3949,18 +4082,484 @@
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#titulo"/>
       <owl:NamedIndividual IRI="#libroDB3"/>
-      <rdf:Literal>Las huellas imborrables</rdf:Literal>
+      <rdf:Literal>A Commentary on the UNIX Operating System</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#autor"/>
       <owl:NamedIndividual IRI="#libroDB3"/>
-      <rdf:Literal>Camilla Läckberg</rdf:Literal>
+      <rdf:Literal>John Lions</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#libroDB4">
+      <rdf:type rdf:resource="#Libro"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#libroDB4"/>
+      <rdf:Literal>성당과 시장</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#libroDB4"/>
+      <rdf:Literal>إريك ريموند</rdf:Literal>
     </owl:DataPropertyAssertion>
 
     <owl:DataPropertyAssertion>
       <owl:DataProperty IRI="#isbn"/>
-      <owl:NamedIndividual IRI="#libroDB3"/>
-      <rdf:Literal>0-00-741949-X</rdf:Literal>
+      <owl:NamedIndividual IRI="#libroDB4"/>
+      <rdf:Literal>1-565-92724-9</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#libroDB5">
+      <rdf:type rdf:resource="#Libro"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#libroDB5"/>
+      <rdf:Literal>The Master Algorithm</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#libroDB5"/>
+      <rdf:Literal>Pedro Domingos</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#isbn"/>
+      <owl:NamedIndividual IRI="#libroDB5"/>
+      <rdf:Literal>978-0465065707</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#libroDB6">
+      <rdf:type rdf:resource="#Libro"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#libroDB6"/>
+      <rdf:Literal>The Turing Guide</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#libroDB6"/>
+      <rdf:Literal>Robin Wilson (Mathematiker)</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#isbn"/>
+      <owl:NamedIndividual IRI="#libroDB6"/>
+      <rdf:Literal>978-0-19-874783-3</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#libroDB7">
+      <rdf:type rdf:resource="#Libro"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#libroDB7"/>
+      <rdf:Literal>Dragon book</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#libroDB7"/>
+      <rdf:Literal>Jeffrey D. Ullman</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#isbn"/>
+      <owl:NamedIndividual IRI="#libroDB7"/>
+      <rdf:Literal>0-201-10088-6</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#libroDB8">
+      <rdf:type rdf:resource="#Libro"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#libroDB8"/>
+      <rdf:Literal>Programming Languages: Application and Interpretation</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#libroDB8"/>
+      <rdf:Literal>Shriram Krishnamurthi</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#libroDB9">
+      <rdf:type rdf:resource="#Libro"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#libroDB9"/>
+      <rdf:Literal>The Art of the Metaobject Protocol</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#libroDB9"/>
+      <rdf:Literal>دانيال ج. بوبرو</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#isbn"/>
+      <owl:NamedIndividual IRI="#libroDB9"/>
+      <rdf:Literal>0-262-61074-4</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#libroDB10">
+      <rdf:type rdf:resource="#Libro"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#libroDB10"/>
+      <rdf:Literal>Structure and Interpretation of Computer Programs</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#autor"/>
+      <owl:NamedIndividual IRI="#libroDB10"/>
+      <rdf:Literal>جيرالد جاي سوسمان</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#isbn"/>
+      <owl:NamedIndividual IRI="#libroDB10"/>
+      <rdf:Literal>0-262-51087-1</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+  <!-- Instancias de Video -->
+
+    <owl:NamedIndividual rdf:about="#videoDB1">
+      <rdf:type rdf:resource="#Video"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#videoDB1"/>
+      <rdf:Literal>Cannon.js</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#videoDB1"/>
+      <rdf:Literal>Cannon.js هو محرك فيزيائي ثلاثي الأبعاد مكتوب بلغه الجافا سكريبت مفتوح المصدر تم إنشاؤه بواسطة Stefan &quot;schteppe&quot; Hedman. على عكس مكتبات محركات الفيزياء المنقولة من C ++ إلى الجافا سكريبت، فإن cannon.js مكتوب بلغة الجافا سكريبت منذ البداية حيث يمكنة ذلك من الاستفادة من جميع ميزاته. في مقارنة اجريت عام 2013 مع Ammo.js ، تم اكتشاف ان cannon.js «أكثر إحكاما، وأكثر قابلية للفهم، وأكثر قوة فيما يتعلق بأدائه وكذلك أسهل في الفهم»، ولكن لم يكن لديه العديد من الميزات.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#videoDB2">
+      <rdf:type rdf:resource="#Video"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#videoDB2"/>
+      <rdf:Literal>Capaware</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#videoDB2"/>
+      <rdf:Literal>Capaware is a 3D general purpose virtual worlds viewer. It is a free software project which began in 2007, released for the purpose of promoting the development of free software in the Canary Islands by its Government. Capaware allows interaction with 3D virtual terrain mapping, and is distributed under license GPL. It provides access to information that fits the specifications of the OGC. It was developed in C++ programming language. At present it works under Microsoft Windows and Linux. Capaware uses OpenSceneGraph as graphics engine, achieving extremely high frames per second rates. Capaware&apos;s architecture has a plugin interface allowing new plugins.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#videoDB3">
+      <rdf:type rdf:resource="#Video"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#videoDB3"/>
+      <rdf:Literal>Care Bears: The Giving Festival</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#videoDB3"/>
+      <rdf:Literal>Care Bears: The Giving Festival is a 2010 American computer-animated fantasy film starring the Care Bears characters. It was made by SD Entertainment and released on DVD by Lionsgate on November 2, 2010. In the film, the Care Power Team—which includes Funshine Bear, Cheer Bear and Share Bear—organizes their annual Giving Festival, and must rescue a princess named Starglo from impending weather.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#videoDB4">
+      <rdf:type rdf:resource="#Video"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#videoDB4"/>
+      <rdf:Literal>Cars (film)</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#videoDB4"/>
+      <rdf:Literal>سيارات (بالإنجليزية: Cars كارز)‏ هو فيلم أمريكي كرتوني ثلاثي الأبعاد قامت شركة بيكسار بإنتاجه عام 2006. فيما قام جون لاسيتر بإخراج الفيلم. سيارات هو سابع فيلم مشترك بين ديزني وبيكسار وأخر أفلام بيكسار قبل أن تشتريها ديزني.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#videoDB5">
+      <rdf:type rdf:resource="#Video"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#videoDB5"/>
+      <rdf:Literal>Cartes du Ciel</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#videoDB5"/>
+      <rdf:Literal>Cartes du Ciel (česky Mapy oblohy) je open source planetárium pro Windows a Linux v mnoha jazycích, včetně češtiny, vykreslují mapy hvězdné oblohy. Cartes du Ciel má mnoho doplňujících katalogů a rejstříků, např. katalog Hipparcos obsahující 118 000 hvězd do magnitudy 8,5 nebo katalog PGC2002 obsahující 1,1 miliónu galaxií. V angličtině je používán název Skychart.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#videoDB6">
+      <rdf:type rdf:resource="#Video"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#videoDB6"/>
+      <rdf:Literal>Casync</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#videoDB6"/>
+      <rdf:Literal>casync (content-addressable synchronisation) is a Linux software utility designed to distribute frequently-updated file system images over the Internet.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#videoDB7">
+      <rdf:type rdf:resource="#Video"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#videoDB7"/>
+      <rdf:Literal>American Heritage of Invention &amp; Technology</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#videoDB7"/>
+      <rdf:Literal>Invention &amp; Technology Magazine (formerly known as American Heritage of Invention &amp; Technology) is a quarterly magazine dedicated to the history of technology. It was launched with sponsorship from General Motors in the summer of 1985 as a spinoff of American Heritage magazine. Later, the magazine had a partnership with the National Inventors Hall of Fame. “Our subject matter is actually nothing less than the making of the world we live in, and the stories of all the extraordinary people who made it,” wrote Frederick Allen, the Founding Editor, in 1985. He noted that the field of the history of technology is relatively new. &quot;Up to now there has been no general magazine of wide circulation reporting on it. A gap exists between the findings of the scholars and the educated public,&quot; he wrote. There were three issues of the magazine a year until 1992, when it became quarterly. Following the Summer 2007 issue (volume 23, number 1), publication was suspended (along with American Heritage itself). Publication of the magazine resumed with the Summer 2008 issue (volume 23, number 2), under the slightly changed title American Heritage&apos;s Invention &amp; Technology. Publication was suspended after the Winter 2011 issue (volume 25, number 4). Invention &amp; Technology relaunched in 2020 with grants from the Alfred P. Sloan Foundation and Charles Koch Institute and donations from 700 subscribers. Its first new issue included profiles of 50 women inventors with articles by Dr. Shirley Ann Jackson, President of Rensselaer Polytechnic Institute, Sylvia Acevedo, CEO of the Girl Scouts, and C. Daniel Mote Jr., former president of the University of Maryland. Contributors have included such writers about the history of technology as W. Bernard Carlson, Tom D. Crouch, Julie M. Fenster, Robert Friedel, William S. Hammack, Stephen Hawking, T. A. Heppenheimer, Thomas P. Hughes, Sebastian Junger, Arthur Molella, Henry Petroski, Robert C. Post, and Mark Wolverton.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#videoDB8">
+      <rdf:type rdf:resource="#Video"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#videoDB8"/>
+      <rdf:Literal>American Scientist</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#videoDB8"/>
+      <rdf:Literal>American Scientist (informally abbreviated AmSci) is an American bimonthly science and technology magazine published since 1913 by Sigma Xi, The Scientific Research Society. In the beginning of 2000s the headquarters was in New Haven, CT. Each issue includes feature articles written by prominent scientists and engineers who review research in fields from molecular biology to computer engineering. Each issue also includes the work of cartoonists, including those of Sidney Harris, Benita Epstein, and . Also included is the Scientists&apos; Nightstand that reviews a vast range of science-related books and novels. American Scientist Online (ISSN 1545-2786) was launched in May 2003.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#videoDB9">
+      <rdf:type rdf:resource="#Video"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#videoDB9"/>
+      <rdf:Literal>AmigaBASIC</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#videoDB9"/>
+      <rdf:Literal>AmigaBASIC is an interpreted BASIC programming language implementation for the Amiga, designed and written by Microsoft. AmigaBASIC shipped with AmigaOS versions 1.1 to 1.3. It succeeded MetaComCo&apos;s ABasiC, which was included in AmigaOS 1.0 and 1.1, and was superseded by ARexx, a REXX-style scripting language, from AmigaOS version 2.0 onwards.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#videoDB10">
+      <rdf:type rdf:resource="#Video"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#videoDB10"/>
+      <rdf:Literal>Amiga Force</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#videoDB10"/>
+      <rdf:Literal>Amiga Force was a video games magazine launched towards the end of 1992 by Europress Impact. It lasted for 16 issues before going down with its publishers. The first issue of Amiga Force went on sale around September 1992. The magazine would switch to monthly release soon after. Amiga Force showed many similarities to other Europress Impact titles, particularly Sega Force. Unlike rival magazine Amiga Power, Amiga Force decided not to include any coverdisks on the issues. The magazine went through various designs and staff through its lifetime. The March 1994 issue was the last Amiga Force published when Impact Magazines went bust.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+  <!-- Instancias de Audio -->
+
+    <owl:NamedIndividual rdf:about="#audioDB1">
+      <rdf:type rdf:resource="#Audio"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#audioDB1"/>
+      <rdf:Literal>Printer driver</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#audioDB1"/>
+      <rdf:Literal>En informática, un controlador de impresora o driver de impresora es un software que convierte los datos a imprimir al formato específico de una impresora. El propósito de un controlador es permitirle imprimir a las aplicaciones, dejándolas aparte de los detalles técnicos de cada modelo de impresora.​​ Los controladores de impresora no deben confundirse con los “spoolers”, que encolan los trabajos a imprimir y los envían a la impresora uno detrás de otro.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#audioDB2">
+      <rdf:type rdf:resource="#Audio"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#audioDB2"/>
+      <rdf:Literal>Binary blob</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#audioDB2"/>
+      <rdf:Literal>En la kunteksto de libera programaro, duuma malliberumo (angle binary blob) estas fermit-fonta nur-duumkoda programo sen publike havebla fontkodo. La esprimo kutime rilatas al fermit-fonta kernmodulo ŝarĝita en la kerno de libera operaciumo, kaj estas foje ankaŭ uzita por kodaĵo funkciante ekster la kerno, kiel ekzemple sistemaj mikroprogramaraj bildoj, mikrokodaj ĝisdatigoj, aŭ uzantlandaj programoj. Kiam aparataro-vendistoj disponigas plenan teknikan dokumentaron por siaj produktoj, operaciumprogramistoj povas verki aparatarajn pelilojn por inkludi en la operaciumkernoj. Tamen, kelkaj vendistoj, kiel ekzemple , ne disponigas kompletan dokumentaron por kelkaj el siaj produktoj kaj anstataŭe disponigas nur-duumajn pelilojn (duumajn malliberumoj); tiu praktiko estas plej ofta por -peliloj, retkartoj kaj RAID-kontroliloj.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#audioDB3">
+      <rdf:type rdf:resource="#Audio"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#audioDB3"/>
+      <rdf:Literal>Free Software Song</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#audioDB3"/>
+      <rdf:Literal>La Free Software Song (Cançó del Programari Lliure en català) és una cançó escrita per Richard Matthew Stallman sobre el programari lliure. La cançó segueix la melodia de la cançó búlgara &quot;Sadi Moma&quot;.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#audioDB4">
+      <rdf:type rdf:resource="#Audio"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#audioDB4"/>
+      <rdf:Literal>The Way (Put Your Hand in My Hand)</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#audioDB4"/>
+      <rdf:Literal>&quot;The Way (Put Your Hand in My Hand)&quot; is a single released by British music group Divine Inspiration on 6 January 2003. It reached number five on the UK Singles Chart and number 34 on the Irish Singles Chart in January 2003. It also found minor success in Germany and the Netherlands.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#audioDB5">
+      <rdf:type rdf:resource="#Audio"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#audioDB5"/>
+      <rdf:Literal>California (Datarock EP)</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#audioDB5"/>
+      <rdf:Literal>California is an EP by Norwegian dance-punk duo Datarock, released in 2011 included within the Catcher in the Rye EP aka The Most Extravagant Single in History. The EP features the title track &quot;California&quot; a song the band bills as part of a new modern rock musical about Datarock traveling the world. The band continues its often playful approach to music citing references to both The Beach Boys&apos; &quot;California Girls&quot; and Porno for Pyros&apos; &quot;Pets&quot; in the song &quot;Great Pets&quot;. The EP was the first step in Datarock&apos;s plans to release a musical.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#audioDB6">
+      <rdf:type rdf:resource="#Audio"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#audioDB6"/>
+      <rdf:Literal>DOS Wedge</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#audioDB6"/>
+      <rdf:Literal>The DOS Wedge is a piece of Commodore 64 system software that was popular in its time. It was written by Bob Fairbairn, and was included by Commodore (CBM) on the 1541 disk drive Test/Demo Disk (filename: &quot;DOS 5.1&quot;) and also packaged with the (filename: &quot;DOS WEDGE64&quot;). The DOS Wedge was referred to in the 1541 drive manual as DOS Support and on the software startup screen as DOS MANAGER. The original design was developed by Bill Seiler. The Wedge made disk operations in BASIC 2.0 significantly easier by introducing several keyword shortcuts. The DOS Wedge became somewhat of a de facto standard, with third party vendors such as Epyx often incorporating identical commands into fastloader cartridges and other Commodore 64 expansion devices. COMPUTE!&apos;s Gazette published several type-in variations on the DOS Wedge, including a C128 version in its February 1987 issue (see External links, below). The original Commodore DOS Wedge was a 1-KB program written in MOS 6502 assembly language. It resided in the otherwise unused memory block $CC00–$CFFF (52224–53247) and worked by altering BASIC&apos;s &quot;CHRGET&quot; subroutine at $0073 (115) so that each character passing by the BASIC interpreter would be checked for wedge commands, and the associated &quot;wedged-in&quot; routines run if needed.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#audioDB7">
+      <rdf:type rdf:resource="#Audio"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#audioDB7"/>
+      <rdf:Literal>Coupling Facility</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#audioDB7"/>
+      <rdf:Literal>Die Coupling Facility (CF) ist eine Hardware-Komponente von IBM-Großrechnern. Sie hat die Aufgabe, allen Prozessoren Zugriff auf die gleichen Daten zu ermöglichen, und ist zudem für die flexible Lastverteilung und die Skalierung zuständig. Die CF übernimmt Aufgaben des Locking, Caching, Queueing und . Sie wird über den sogenannten CFCC (Coupling Facility Control Code) gesteuert.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#audioDB8">
+      <rdf:type rdf:resource="#Audio"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#audioDB8"/>
+      <rdf:Literal>Kickstarts (song)</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#audioDB8"/>
+      <rdf:Literal>&quot;Kickstarts&quot; is a song by British singer Example. This is the third single from Example&apos;s second album, Won&apos;t Go Quietly. The song was available to download on 13 June 2010, with a physical single release on 14 June 2010. Production was handled by British drum and bass musician Sub Focus.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#audioDB9">
+      <rdf:type rdf:resource="#Audio"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#audioDB9"/>
+      <rdf:Literal>In the Air (TV Rock song)</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#audioDB9"/>
+      <rdf:Literal>&quot;In the Air&quot; is a single from Australian dance music duo TV Rock featuring Rudy.</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:NamedIndividual rdf:about="#audioDB10">
+      <rdf:type rdf:resource="#Audio"/>
+    </owl:NamedIndividual>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#titulo"/>
+      <owl:NamedIndividual IRI="#audioDB10"/>
+      <rdf:Literal>Cannon.js</rdf:Literal>
+    </owl:DataPropertyAssertion>
+
+    <owl:DataPropertyAssertion>
+      <owl:DataProperty IRI="#descripcion"/>
+      <owl:NamedIndividual IRI="#audioDB10"/>
+      <rdf:Literal>Cannon.js هو محرك فيزيائي ثلاثي الأبعاد مكتوب بلغه الجافا سكريبت مفتوح المصدر تم إنشاؤه بواسطة Stefan &quot;schteppe&quot; Hedman. على عكس مكتبات محركات الفيزياء المنقولة من C ++ إلى الجافا سكريبت، فإن cannon.js مكتوب بلغة الجافا سكريبت منذ البداية حيث يمكنة ذلك من الاستفادة من جميع ميزاته. في مقارنة اجريت عام 2013 مع Ammo.js ، تم اكتشاف ان cannon.js «أكثر إحكاما، وأكثر قابلية للفهم، وأكثر قوة فيما يتعلق بأدائه وكذلك أسهل في الفهم»، ولكن لم يكن لديه العديد من الميزات.</rdf:Literal>
     </owl:DataPropertyAssertion>
 </Ontology>

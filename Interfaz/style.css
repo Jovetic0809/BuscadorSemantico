@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 600px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 85%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#resultados {
+  margin-top: 20px;
+  text-align: left;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.resultado-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.resultado-card p {
+  margin: 0;
+  flex: 1;
+  padding-right: 15px;
+  word-break: break-word;
+}
+
+.btn {
+  padding: 6px 14px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+.logo {
+  position: fixed;   /* fijo en la pantalla */
+  top: 10px;         /* separacion desde arriba */
+  left: 10px;        /* separacion desde la izquierda */
+  max-width: 150px;  /* tamaño maximo */
+  height: auto;
+  z-index: 1000;     /* para que esté arriba de otros elementos */
+}
