@@ -78,3 +78,27 @@ input[type="text"] {
   height: auto;
   z-index: 1000;     /* para que esté arriba de otros elementos */
 }
+.logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+#idiomaSelector {
+  margin-top: 15px;
+}
+
+.idioma-btn {
+  padding: 6px 12px;
+  margin: 0 5px;
+  border: none;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.idioma-btn.activo {
+  background-color: #2196F3;
+  color: white;
+}
+

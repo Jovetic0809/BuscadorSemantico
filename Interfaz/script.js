@@ -12,7 +12,7 @@ async function buscar() {
     resultadosDiv.innerHTML = '';
 
     if (query.length < 2) {
-        resultadosDiv.innerHTML = '<p>Escribe al menos 2 caracteres.</p>';
+        resultadosDiv.innerHTML = `<p>${traducciones[idiomaActual].errorCorto || "Escribe al menos 2 caracteres."}</p>`;
         return;
     }
 
@@ -21,7 +21,7 @@ async function buscar() {
         const data = await res.json();
 
         if (data.resultados.length === 0) {
-            resultadosDiv.innerHTML = '<p>No se encontraron resultados.</p>';
+            resultadosDiv.innerHTML = `<p>${traducciones[idiomaActual].noResultados || "No se encontraron resultados."}</p>`;
             return;
         }
 
@@ -29,16 +29,16 @@ async function buscar() {
             const card = document.createElement('div');
             card.className = 'resultado-card';
 
-            const textoCorto = limitarPalabras(item.texto, 20); // límite de 20 palabras
+            const textoCorto = limitarPalabras(item.texto, 20);
 
             const texto = document.createElement('p');
             texto.textContent = textoCorto;
 
             const boton = document.createElement('button');
-            boton.textContent = 'Ver más';
+            boton.textContent = traducciones[idiomaActual].verMas || "Ver más";
             boton.className = 'btn';
             boton.onclick = () => {
-                window.location.href = `detalle.html?id=${item.id}`;
+                window.location.href = `detalle.html?id=${item.id}&lang=${idiomaActual}`;
             };
 
             card.appendChild(texto);
@@ -48,6 +48,31 @@ async function buscar() {
 
     } catch (err) {
         console.error('Error al buscar:', err);
-        resultadosDiv.innerHTML = '<p>Error al buscar los datos.</p>';
+        resultadosDiv.innerHTML = `<p>${traducciones[idiomaActual].errorBuscar || "Error al buscar los datos."}</p>`;
     }
 }
+function cambiarIdioma(idioma) {
+    idiomaActual = idioma;
+    localStorage.setItem('idiomaActual', idioma);
+    actualizarTexto();
+
+    // Marcar botón activo
+    document.querySelectorAll('.idioma-btn').forEach(btn => {
+        btn.classList.remove('activo');
+    });
+    document.querySelector(`.idioma-btn[onclick*="${idioma}"]`).classList.add('activo');
+}
+
+function actualizarTexto() {
+    const t = traducciones[idiomaActual];
+    document.getElementById('titulo').textContent = t.titulo || "Buscador Ontológico";
+    document.getElementById('searchInput').placeholder = t.placeholder || "Escribe tu búsqueda...";
+    document.getElementById('btnBuscar').textContent = t.btnBuscar  || "Buscar";
+}
+
+// Inicializar idioma actual desde localStorage
+window.onload = () => {
+    const guardado = localStorage.getItem('idiomaActual');
+    if (guardado) idiomaActual = guardado;
+    cambiarIdioma(idiomaActual || 'es');
+};

@@ -7,14 +7,19 @@
 </head>
 <body>
   <div class="container">
-    <img src="images/logo2.jpg" alt="Logo" class="logo-index">
-    <h1>Buscador Ontológico</h1>
+    <img src="images/logo2.jpg" alt="Logo" class="logo2">
+    <h1 id="titulo">Buscador Ontológico</h1>
     <input type="text" id="searchInput" placeholder="Escribe tu búsqueda...">
-    <button class="btn" onclick="buscar()">Buscar</button>
-
+    <button id="btnBuscar" onclick="buscar()">Buscar</button>
     <div id="resultados"></div>
+    <div id="idiomaSelector">
+      <button class="idioma-btn" onclick="cambiarIdioma('es')">Español</button>
+      <button class="idioma-btn" onclick="cambiarIdioma('en')">English</button>
+      <button class="idioma-btn" onclick="cambiarIdioma('pt')">Português</button>
+    </div>
   </div>
 
+  <script src="lang.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
